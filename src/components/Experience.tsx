@@ -29,8 +29,8 @@ export function Experience() {
           
           <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
           
-          <p className="text-lg md:text-2xl text-gray-300 font-light max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
-            We exist for those who take pride in ownership. Our meticulous attention to detail restores the prestige, depth, and character of your investment.
+          <p className="text-lg md:text-2xl text-gray-300 font-light max-w-4xl mx-auto leading-relaxed drop-shadow-lg">
+            At Express Mobile Detailing, we bring top-quality car care directly to your doorstep. Whether you're at home, work, or on the go, our fully equipped mobile units deliver professional detailing services with unmatched convenience and precision.
           </p>
         </motion.div>
       </div>

@@ -34,10 +34,10 @@ function Counter({ from, to, duration = 2 }: { from: number; to: number; duratio
 
 export function TrustBar() {
   const stats = [
-    { label: "Cars Detailed", value: 2500, suffix: "+" },
-    { label: "5-Star Reviews", value: 450, suffix: "+" },
-    { label: "Years Experience", value: 8, suffix: "+" },
+    { label: "Google Reviews", value: 15, suffix: " (5.0★)" },
     { label: "Satisfaction Rate", value: 100, suffix: "%" },
+    { label: "Hours / Days", value: 24, suffix: "/7" },
+    { label: "Cars Detailed", value: 500, suffix: "+" },
   ];
 
   return (

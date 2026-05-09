@@ -13,7 +13,7 @@ export function Footer() {
               </span>
             </a>
             <p className="text-gray-400 text-sm font-light leading-relaxed mb-6">
-              Precision mobile auto detailing. We restore, protect, and maintain your vehicle's perfection directly at your location.
+              At Express Mobile Detailing, we bring top-quality car care directly to your doorstep. We specialize in interior and exterior detailing, paint correction, ceramic coating, and more.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-colors">
@@ -51,7 +51,7 @@ export function Footer() {
           <div>
             <h4 className="text-white font-bold uppercase tracking-widest text-xs mb-6">Service Area</h4>
             <p className="text-gray-400 text-sm font-light leading-relaxed mb-4">
-              Standard mobile service covers a 30-mile radius from Downtown. Extended travel available for specialized ceramic coating and paint correction services upon query.
+              Areas served: Ypsilanti and nearby areas. Our fully equipped mobile units deliver professional detailing services wherever you are.
             </p>
           </div>
         </div>

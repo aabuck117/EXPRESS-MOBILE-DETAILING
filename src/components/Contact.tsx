@@ -50,7 +50,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">Direct Line</p>
-                  <p className="text-lg font-light text-white">(555) 019-8273</p>
+                  <p className="text-lg font-light text-white">(734) 210-9017</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -68,7 +68,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">Hours</p>
-                  <p className="text-lg font-light text-white">Mon-Sun: 7am - 6pm</p>
+                  <p className="text-lg font-light text-white">Open 24 hours</p>
                 </div>
               </div>
             </div>

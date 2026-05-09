@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Car } from 'lucide-react';
+import { Menu, X, Car, Phone } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -26,11 +26,25 @@ export function Navbar() {
   return (
     <header
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent',
-        isScrolled ? 'bg-primary/80 backdrop-blur-md border-white/10 py-4' : 'bg-transparent py-6'
+        'fixed top-0 left-0 right-0 z-50 transition-all duration-300 flex flex-col',
+        isScrolled ? 'bg-primary/95 backdrop-blur-md border-b border-white/10 shadow-xl' : 'bg-gradient-to-b from-primary/80 to-transparent'
       )}
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
+      {/* Top Banner */}
+      <div 
+        className={cn(
+          "bg-accent text-white flex flex-col sm:flex-row justify-center md:justify-end items-center gap-2 md:gap-6 text-[10px] md:text-xs font-bold tracking-widest uppercase transition-all duration-300 overflow-hidden",
+          isScrolled ? "h-0 py-0 opacity-0" : "h-auto py-2 px-6 opacity-100"
+        )}
+      >
+        <span className="opacity-90 hidden sm:inline">24/7 Mobile Service in Ypsilanti & Nearby Areas</span>
+        <a href="tel:7342109017" className="flex items-center gap-2 hover:text-gray-200 transition-colors bg-black/20 px-3 py-1 rounded-full">
+          <Phone className="w-3.5 h-3.5" />
+          Call Now: (734) 210-9017
+        </a>
+      </div>
+
+      <div className={cn("max-w-7xl mx-auto px-6 md:px-12 w-full flex items-center justify-between transition-all duration-300", isScrolled ? "py-4" : "py-6")}>
         <a href="#" className="flex items-center gap-2 group">
           <Car className="w-8 h-8 text-accent group-hover:scale-110 transition-transform" />
           <span className="font-display font-bold text-xl tracking-wide uppercase">
